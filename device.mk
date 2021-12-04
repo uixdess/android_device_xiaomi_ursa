@@ -70,10 +70,6 @@ PRODUCT_PACKAGES += \
     libkeymaster_portable.vendor \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_sdm845
 
-# GPS
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/gps/gps_debug.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps_debug.conf
-
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service.xiaomi_sdm845
